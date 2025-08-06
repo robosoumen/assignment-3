@@ -1,7 +1,7 @@
 // রহিম করিম ২ ভাই।  তাদের বাবার একটা জমি আছে  যার ক্ষেত্রফল  area নামে একটা ভ্যারিয়েবলে সেভ করা আছে।  তাদের বাবা তাদের কে সমান  ২  ভাগে সম্পত্তি ভাগ করে দিতে চান। এখন ২ জন ঠিক কতটুকু জমি পাবে সেটা প্রোগ্রাম করে বের করো এবং নিচের মতো করে আউটপুট হিসেবে দেখাও।
 
 var area = 60;
-if(area > 0){
-    var equallyDevided = area / 2
+if(area>0){
+    var equallyDevided = (area/2);
 }
-console.log(equallyDevided)
+console.log(equallyDevided);

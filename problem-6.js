@@ -5,6 +5,5 @@ var n = 1;
 var p = 45000;
 var t = 30;
 var r = 5/100;
-// var A = p*(1 + (r/n))**(n*t)
 var A = p*((1 + (r/n))**(n*t))
 console.log(A.toFixed(2));

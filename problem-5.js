@@ -10,10 +10,10 @@ var student = {
     roll : 1014,
     department : 'cse',
 }
-var lastPartEmail = '@ph.ac.bd' ;
-var dotString = '.';
-var manus = student['name'];
-var Roll = student['roll'];
+var name = student['name'];
+var roll = student['roll'];
 var dept = student['department'];
-console.log(manus.concat(Roll).concat(dotString).concat(dept).concat(lastPartEmail));
+var dotString = '.';
+var lastPartEmail = '@ph.ac.bd' ;
+console.log(name.concat(roll).concat(dotString).concat(dept).concat(lastPartEmail));
 
