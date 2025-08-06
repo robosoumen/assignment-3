@@ -6,16 +6,14 @@
 // @ph.ac.bd
 
 var student = {
-    name : "soumen bera",
-    roll : 43,
-    department : 'me',
+    name : "jhankar",
+    roll : 1014,
+    department : 'cse',
 }
-// dot notation system :--
-// console.log(student.name);
-// const person = student.roll; 
-// console.log(person);
-// bracket notation system
-// console.log(student['roll'])
-const manus = student['name'];
-console.log(manus)
+var lastPartEmail = '@ph.ac.bd' ;
+var dotString = '.';
+var manus = student['name'];
+var Roll = student['roll'];
+var dept = student['department'];
+console.log(manus.concat(Roll).concat(dotString).concat(dept).concat(lastPartEmail));
 
