@@ -1,0 +1,75 @@
+//problem-1
+
+var area = 60;
+if(area>0){
+    var equallyDevided = (area/2);
+}
+console.log(equallyDevided);
+
+//problem-2
+
+var money = 9999;
+if(money >= 25000){
+    console.log('Laptop');
+}
+else if(money >= 10000){
+    console.log('Cycle');
+}
+else{
+    console.log('Chocolate');
+}
+
+//problem-3
+
+var lastDay = 6;
+var day = 1;
+while(day <= lastDay){
+    if(day % 3 == 0){
+        console.log(day,'-','medicine');
+    }
+    else{
+        console.log(day,'-','rest');
+    }
+    day++;
+}
+
+// problem-4
+
+var fileName = 'pdfData.jpg';
+var firstCharacter = fileName.slice(0,1);
+var splitArray = fileName.split('.');
+if(firstCharacter === '#'){
+    console.log('Store')
+}
+else if(splitArray[1] === 'pdf'){
+    console.log('Store')
+}
+else if (splitArray[1] === 'docx'){
+    console.log('Store')
+}
+else{
+    console.log('Delete')
+}
+
+//problem-5
+var student = {
+    name : "jhankar",
+    roll : 1014,
+    department : 'cse',
+}
+var name = student['name'];
+var roll = student['roll'];
+var dept = student['department'];
+var dotString = '.';
+var lastPartEmail = '@ph.ac.bd' ;
+console.log(name.concat(roll).concat(dotString).concat(dept).concat(lastPartEmail));
+
+
+//problem-6
+
+var n = 1;
+var p = 45000;
+var t = 30;
+var r = 5/100;
+var A = p*((1 + (r/n))**(n*t))
+console.log(A.toFixed(2));
